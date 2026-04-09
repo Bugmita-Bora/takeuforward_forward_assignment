@@ -43,11 +43,11 @@ const monthNames = [
 
 export default function HeroImage({ month, year }) {
   return (
-    <div className="relative w-full md:w-2/5 min-h-64 md:min-h-0 md:self-stretch overflow-hidden flex-shrink-0">
+    <div className="relative w-full md:w-2/5 h-64 md:h-[480px] overflow-hidden flex-shrink-0">
       <img
         src={monthImages[month]}
         alt={monthNames[month]}
-        className="absolute inset-0 w-full h-full object-cover object-center"
+        className="w-full h-full object-cover object-center"
       />
       <div className="absolute bottom-0 right-0 bg-pink-600 text-white px-6 py-3">
         <p className="text-xs font-light tracking-widest">{year}</p>

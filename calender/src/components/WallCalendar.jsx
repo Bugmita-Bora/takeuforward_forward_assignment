@@ -7,7 +7,8 @@ import HeroImage from "./HeroImage";
 import NotesPanel from "./Notes/NotesPanel";
 
 export default function WallCalendar() {
-  const { month, year, goNextMonth, goPrevMonth } = useCalendar();
+  const { month, year, goNextMonth, goPrevMonth, animKey, direction } =
+    useCalendar();
   const { isDark, toggleTheme } = useTheme();
   const [time, setTime] = useState(new Date());
 
@@ -73,7 +74,12 @@ export default function WallCalendar() {
             goNextMonth={goNextMonth}
             goPrevMonth={goPrevMonth}
           />
-          <CalendarGrid month={month} year={year} />
+          <CalendarGrid
+            month={month}
+            year={year}
+            animKey={animKey}
+            direction={direction}
+          />
         </div>
       </div>
 

@@ -20,5 +20,13 @@ export function useCalendar() {
     setCurrDate(new Date(year, month - 1, 1));
   };
 
-  return { month, year, goNextMonth, goPrevMonth, direction, animKey };
+  return {
+    month,
+    year,
+    goNextMonth,
+    goPrevMonth,
+    direction,
+    animKey,
+    direction,
+  };
 }
