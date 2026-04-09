@@ -4,7 +4,7 @@ A polished, interactive wall calendar built with **React** and **Tailwind CSS** 
 
 ---
 
-<<<<<<< HEAD
+
 ## Features
 
 ### Core Features
