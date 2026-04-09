@@ -15,17 +15,17 @@ A polished, interactive wall calendar built with **React** and **Tailwind CSS** 
 
 ### Extra Features
 
-- **Live Clock** — Real-time clock displayed at the top of the calendar
-- **Dark / Light Theme** — Toggle between dark and light mode at any time
-- **Indian Holiday Markers** — Major Indian public holidays are highlighted with an indicator and tooltip (Republic Day, Holi, Independence Day, Diwali, Christmas, and more)
-- **Notes List** — View all saved notes in one place by clicking "All Notes"
-- **Note Dot Indicator** — A pink dot appears below any date that has a saved note
+- ** Live Clock** — Real-time clock displayed at the top of the calendar
+- ** Dark / Light Theme** — Toggle between dark and light mode at any time
+- ** Indian Holiday Markers** — Major Indian public holidays are highlighted with an indicator and tooltip (Republic Day, Holi, Independence Day, Diwali, Christmas, and more)
+- ** Notes List** — View all saved notes in one place by clicking "All Notes"
+- ** Note Dot Indicator** — A pink dot appears below any date that has a saved note
 - ** Today Highlight** — Today's date is always highlighted in grey for quick reference
 - ** Slide Animation** — Smooth slide-in animation when navigating between months. Slides in from the right when going forward, and from the left when going back
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **React** (Vite)
 - **Tailwind CSS**
@@ -90,18 +90,18 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 🎯 How to Use
+## How to Use
 
 1. **Navigate months** using the `‹` and `›` arrows — smooth slide animation plays on each navigation
 2. **Select a date range** by clicking a start date then an end date
 3. **Add a note** for your selected range in the notes section below
 4. **View all notes** by clicking the "All Notes" button
 5. **Toggle dark mode** using the 🌙 button in the top right
-6. **Holidays** are marked highlighted in orange
+6. **Holidays** are marked with 🎉 and highlighted in orange
 
 ---
 
-## 📌 Design Decisions
+## Design Decisions
 
 - **No backend** — All data persistence is handled via localStorage as per the assessment requirements
 - **Context over prop drilling** — `RangeContext` and `ThemeContext` are used to avoid passing props through multiple levels
